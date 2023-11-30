@@ -15,6 +15,8 @@ The ROM uses the image output.bin, generated from the C source provided.
 
 Please note that the circuit in the image is using decoders on the back of the displays.
 
+This circuit does not actaully *keep* time, it just counts it. The clock rate of the cd4060 needs to be set to 8 pulses/minute for it to actually keep time.
+
 ![image](p1300166.jpg)
 ![image](p1300169.jpg)
 
